@@ -1,4 +1,4 @@
-public class Harven {
+public class Havernsin {
 
     public final static double AVERAGE_RADIUS_OF_EARTH_KM = 6372795;
     public double calculateDistanceInKilometer(double userLat, double userLng,
@@ -13,6 +13,6 @@ public class Harven {
 
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
-        return (double) (AVERAGE_RADIUS_OF_EARTH_KM * c);
+        return (AVERAGE_RADIUS_OF_EARTH_KM * c);
     }
 }
